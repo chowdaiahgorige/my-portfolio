@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+
+.nav-content-container{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-weight: bold;
+    
+
+   
+    
+    
+}
+li{
+    list-style:none
+}
+#id{
+    color: green;
+}
+i{
+    margin: 10px;
+    
+}
+.nav-container{
+    display: flex;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.1);
+    padding:7px 160px;
+    justify-content: space-between;
+
+    /* position:fixed; */
+}
+.nav-container>img{
+    height: 50px;
+}
+a{
+    text-decoration: none; 
+    color: #000;
+}
+.main-container{
+     padding:45px 140px; 
+}
+.main-contaianer-section >h1{
+    padding:5px 0px ;
+    font-size: 40px;
+}
+.main-contaianer-section >p{
+    font-size: medium;
+    font-weight: 450;
+   
+}
+.restaurents-cart-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    
+}
+.restaurents-section >h1{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+.cart >img{
+    height: 150px;
+    width: 220px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+h1{
+    font-size: large;
+    padding: 2px 5px;
+}
+.para{
+   font-weight: 400;
+   font-style: normal;
+   color: grey;
+   font-size: medium;
+   padding-right: 20px;
+  
+}
+.restaurents-section{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.cart:hover{
+    scale: 0.95;
+}
+.footer-container{
+    background-color: rgba(33, 27, 27, 0.567);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+   
+
+
+
