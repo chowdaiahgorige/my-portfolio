@@ -6,10 +6,7 @@
     background-color: rgb(255, 0, 0);
     height: 60px;
     display: flex;
-    border-radius: 0px;
-   
-   
-    
+    border-radius: 0px; 
 }
 .nav-h1{
     padding: 15px;
