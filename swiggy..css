@@ -6,12 +6,7 @@
     display: flex;
     gap: 25px;
     align-items: center;
-    font-weight: bold;
-    
-
-   
-    
-    
+    font-weight: bold; 
 }
 li{
     list-style:none
